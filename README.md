@@ -59,6 +59,7 @@ works on any javascript platforms(Webbrowser,Mozilla rhino, Nodejs ...).
                   // bala bala ....
                }
             };
+            return returns;
          }
          @endfunction
       }
