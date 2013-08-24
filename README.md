@@ -78,3 +78,4 @@ Features
 How spiror works
 ======
 
+  1. Initializing spiror JIT compiler:    
