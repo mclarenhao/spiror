@@ -41,6 +41,29 @@ works on any javascript platforms(Webbrowser,Mozilla rhino, Nodejs ...).
 programing language features as below:
 
 1. Strongly OOP as java style
-   
+      /* begin */
+      @package cn.spiror.sample;
+
+      @import cn.spiror.common.Base;
+      
+      /*
+       * Class definition and inherited 
+       */
+      @class Sample : cn.spiror.common.Base {
+         /* define an standard field */
+         @property var name = null;
+         
+         @function func() {
+            // standared javascript object defination
+            var returns = {
+               name : 'sample',
+               op : function() {
+                  // bala bala ....
+               }
+            };
+         }
+         @endfunction
+      }
+      @endclass
    
   
