@@ -78,4 +78,21 @@ Features
 How spiror works
 ======
 
-  1. Initializing spiror JIT compiler:    
+  1. Initializing spiror JIT compiler:
+  2. Load your specified entry class:
+      var classloader = spiror.lang.ClassLoaderFactory.getAvailableClassLoader();
+
+      /**
+       * Loading the specified 'cn.spiror.sample.Sample' with 4 steps:
+       * 1. Test if the specified class already loaded. if already loaded the returns the exist handle, else gose
+       *    to the next step;
+       * 2. Load cn/spiror/sample/Sample.m on the classpath;
+       * 3. Translate to loaded codes to the standard javascript codes;
+       * 4. eval() it to the script engine runtimes.
+       */
+      classloader.loadClass("cn.spiror.sample.Sample");
+
+      var o = new cn.spiror.sample.Sample();
+      
+      // launch the application
+      o.main();
