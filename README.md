@@ -23,18 +23,18 @@ works on any javascript platforms(Webbrowser,Mozilla rhino, Nodejs ...).
    
    In the javascript, we would write the ugly codes :
    
-   function Sample () {
-   }
+      function Sample () {
+      }
    
-   // Inherited
-   Sample.prototype = new Base();
+      // Inherited
+      Sample.prototype = new Base();
    
-   // fields
-   Sample.prototype.name = "";
+      // fields
+      Sample.prototype.name = "";
    
-   // shared method
-   Sample.prototype.func = function() {
-   };
+      // shared method
+      Sample.prototype.func = function() {
+      };
     
   
   
