@@ -69,3 +69,7 @@ works on any javascript platforms(Webbrowser,Mozilla rhino, Nodejs ...).
   
 Features 
 ======
+  1. Spiror is also as javascript application:   spiror programing codes will be compiled to the standard javascript
+     codes and loaded on the underlined javascript engine (WebBrowser,Nodejs...);
+  2. Portable
+  3. Easily
