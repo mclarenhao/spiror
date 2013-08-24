@@ -73,3 +73,8 @@ Features
      codes and loaded on the underlined javascript engine (WebBrowser,Nodejs...);
   2. Portable
   3. Easily
+  4. OOP inmediately
+  
+How spiror works
+======
+
