@@ -40,7 +40,7 @@ works on any javascript platforms(Webbrowser,Mozilla rhino, Nodejs ...).
    So I wanna provide an easy-OOP script language to enhance the standard javascript programing language.  spiror 
 programing language features as below:
 
-# Strongly OOP as java style
+1. Strongly OOP as java style
    
    
   
