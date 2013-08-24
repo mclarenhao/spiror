@@ -21,7 +21,7 @@ works on any javascript platforms(Webbrowser,Mozilla rhino, Nodejs ...).
       }
    
    
-   In the javascript, we would write the ugly codes :
+   But in the javascript, we would write the ugly codes :
    
       function Sample () {
       }
@@ -37,4 +37,7 @@ works on any javascript platforms(Webbrowser,Mozilla rhino, Nodejs ...).
       };
     
   
+   So I wanna provide an easy-OOP script language to enhance the standard javascript programing language.
+   
+   
   
