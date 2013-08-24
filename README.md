@@ -78,8 +78,8 @@ Features
 How spiror works
 ======
 
-Initializing spiror JIT compiler:
-Load your specified entry class:
+  1. Initializing spiror JIT compiler:
+  2. Load your specified entry class:
   
         var classloader = spiror.lang.ClassLoaderFactory.getAvailableClassLoader();
 
@@ -97,3 +97,4 @@ Load your specified entry class:
          
          // launch the application
          o.main();
+
