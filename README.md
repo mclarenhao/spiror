@@ -12,13 +12,13 @@ works on any javascript platforms(Webbrowser,Mozilla rhino, Nodejs ...).
    
    In the java platform:
    
-   class Sample extends Base {
-      private String name;
+      class Sample extends Base {
+         private String name;
       
-      public void func() {
+         public void func() {
          //
+         }
       }
-   }
    
    
    In the javascript, we would write the ugly codes :
